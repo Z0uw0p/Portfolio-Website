@@ -3,50 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional portfolio showcasing creative projects and photography.">
-    <title>Professional Portfolio</title>
-    <!-- Adding Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header id="main-header">
+    <header>
         <nav>
             <ul>
                 <li><a href="#overview">Overview</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#info">Info</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
+    <section id="overview" class="hero">
         <div class="hero-content">
-            <h1 class="hero-title">Crafting Visual Stories</h1>
+            <h1>Welcome to My Portfolio</h1>
+            <p>Scroll down to explore my projects and more!</p>
         </div>
     </section>
 
-    <!-- Photo Dump Section -->
-    <section class="photo-dump" id="projects">
+    <section id="projects" class="photo-dump">
+        <h2>Projects</h2>
         <div class="gallery">
-            <img src="images/IMG_0007.JPG" alt="Project Image 1" class="gallery-image">
-            <img src="images/IMG_0233.jpg" alt="Project Image 2" class="gallery-image">
-            <!-- Add more images as needed -->
+            <!-- Replace with your actual image paths -->
+            <div class="gallery-item"><img src="images/IMG_0007.JPG" alt="Project 1"></div>
+            <div class="gallery-item"><img src="images/IMG_0023.jpg" alt="Project 2"></div>
+            <div class="gallery-item"><img src="images/IMG_3317.jpg" alt="Project 3"></div>
+            <div class="gallery-item"><img src="images/IMG_6512.jpg" alt="Project 4"></div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form id="contact-form">
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Your Email" required>
-            <textarea id="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
+    <section id="info">
+        <h2>About Me</h2>
+        <p>This section will have a small text about you or your client.</p>
     </section>
+
+    <footer>
+        <p>© 2024 My Portfolio | Designed by Z0uw0p</p>
+    </footer>
 
     <script src="scripts.js"></script>
 </body>
