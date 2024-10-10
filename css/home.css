@@ -1,5 +1,5 @@
 .hero {
-    height: 80vh;
+    height: 100vh;
     background: url('../assets/images/IMG_0007.JPG') no-repeat center center/cover;
     background-size: cover;
     display: flex;
