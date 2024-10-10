@@ -1,0 +1,18 @@
+.hero {
+    height: 100vh;
+    background: url('../assets/images/hero.jpg') no-repeat center center/cover;
+}
+
+.photo-dump {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo-dump img {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}

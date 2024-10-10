@@ -3,47 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Home - Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#overview">Overview</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#info">Info</a></li>
+                <li><a href="index.html">Overview</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="info.html">Infos</a></li>
             </ul>
         </nav>
     </header>
-
-    <section id="overview" class="hero">
-        <div class="hero-content">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Scroll down to explore my projects and more!</p>
-        </div>
-    </section>
-
-    <section id="projects" class="photo-dump">
-        <h2>Projects</h2>
-        <div class="gallery">
-            <!-- Replace with your actual image paths -->
-            <div class="gallery-item"><img src="images/IMG_0007.JPG" alt="Project 1"></div>
-            <div class="gallery-item"><img src="images/IMG_0023.jpg" alt="Project 2"></div>
-            <div class="gallery-item"><img src="images/IMG_3317.jpg" alt="Project 3"></div>
-            <div class="gallery-item"><img src="images/IMG_6512.jpg" alt="Project 4"></div>
-        </div>
-    </section>
-
-    <section id="info">
-        <h2>About Me</h2>
-        <p>This section will have a small text about you or your client.</p>
-    </section>
-
+    <main>
+        <section class="hero">
+            <img src="assets/images/IMG_0007.JPG" alt="Image 1">
+        </section>
+        <section class="photo-dump">
+            <img src="assets/images/IMG_0043.JPG" alt="Image 2">
+            <img src="assets/images/IMG_0233.jpg" alt="Image 3">
+        </section>
+    </main>
     <footer>
-        <p>© 2024 My Portfolio | Designed by Z0uw0p</p>
+        <p>&copy; 2023 Portfolio</p>
     </footer>
-
-    <script src="scripts.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/home.js"></script>
 </body>
 </html>
