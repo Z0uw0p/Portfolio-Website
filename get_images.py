@@ -1,7 +1,7 @@
 import os
 
 # Define the path to the folder containing the images
-folder_path = 'assets\images\Projects\Ssense'
+folder_path = 'assets\images\Main photo gallery'
 
 # Initialize an empty list to store the image tags
 image_tags = []
