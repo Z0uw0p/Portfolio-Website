@@ -7,7 +7,7 @@ def convert_images_to_webp(input_dir, output_dir):
 
     for root, _, files in os.walk(input_dir):
         for file in files:
-            if file.lower().endswith(('.png', '.jpg', '.jpeg')):
+            if file.lower().endswith(('.png', '.webp', '.jpeg')):
                 file_path = os.path.join(root, file)
                 img = Image.open(file_path)
                 webp_file_path = os.path.join(output_dir, os.path.splitext(file)[0] + '.webp')
