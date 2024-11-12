@@ -1,7 +1,7 @@
 import os
 
 # Define the path to the folder containing the images
-folder_path = r"assets\images\Projects\Game Goes_ Cover"
+folder_path = r"assets\images\Projects\Chelsea"
 
 # Initialize an empty list to store the image tags
 image_tags = []
