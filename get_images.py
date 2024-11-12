@@ -1,7 +1,7 @@
 import os
 
 # Define the path to the folder containing the images
-folder_path = 'assets\images\Main photo gallery'
+folder_path = r"assets\images\Main photo gallery"
 
 # Initialize an empty list to store the image tags
 image_tags = []
@@ -9,7 +9,7 @@ image_tags = []
 # Walk through the directory and get all image files
 for root, dirs, files in os.walk(folder_path):
     for file in files:
-        if file.lower().endswith(('.png', '.jpg', '.jpeg', '.gif')):
+        if file.lower().endswith(('.webp')):
             # Construct the relative path to the image
             relative_path = os.path.join(root, file).replace('\\', '/')
             # Get the last folder name
@@ -17,7 +17,7 @@ for root, dirs, files in os.walk(folder_path):
             # Create the alt text
             alt_text = f"{last_folder_name}{len(image_tags) + 1}"
             # Create the HTML image tag
-            image_tag = f'<img src="{relative_path}" alt="{alt_text}">'
+            image_tag = f'<img src="{relative_path}" alt="{alt_text}" loading="lazy">'
             # Add the image tag to the list
             image_tags.append(image_tag)
 
