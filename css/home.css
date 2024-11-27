@@ -1,7 +1,7 @@
 .hero {
     height: 100vh;
     background: url('assets/images/Photo principale (background)/scan0124.webp') no-repeat center center/cover;
-    background-size: cover;
+    background-size: contain;
     display: flex;
     align-items: center;
     justify-content: center;
