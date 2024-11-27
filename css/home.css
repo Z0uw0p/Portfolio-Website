@@ -1,6 +1,6 @@
 /* home.css */
 body {
-    background: url('assets/images/Photo principale (background)/scan0124.webp') no-repeat center center/cover;
+    background: url('assets\images\Photo principale\scan0124.webp') no-repeat center center/cover;
     background-size: cover;
     margin: 0;
     padding: 0;
