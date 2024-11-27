@@ -45,7 +45,7 @@ header nav ul li a {
     align-items: center;
     justify-content: center;
     position: relative;
-    background-image: url('assets\images\Photo principale\scan0124.webp');
+    background-image: url('assets/images/Photo principale/scan0124.webp'); /* Corrected path */
     background-size: cover;
     background-position: center;
 }
