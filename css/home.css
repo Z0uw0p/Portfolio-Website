@@ -45,6 +45,9 @@ header nav ul li a {
     align-items: center;
     justify-content: center;
     position: relative;
+    background-image: url('assets/images/your-background-image.jpg'); /* Update the path to your image */
+    background-size: cover;
+    background-position: center;
 }
 
 .home img {
